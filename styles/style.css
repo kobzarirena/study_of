@@ -16,15 +16,22 @@ p {
 .vacancy-salary {
 	margin-bottom: 45px;
 }
+.vacancy-location {
+	color: #777777;
+}
+
 .vacancy-location,
 .vacancy-salary,
 .vacancy-city,
 .icon-location {
 	display: inline-block;
-	vertical-align: middle;
+	vertical-align: bottom;
+}
+.vacancy-salary {
+	margin-inline-start: 60px;
 }
 .icon-location {
-	background: url("../img/location.svg") no-repeat;
+	color: #ff1213;
 	width: 20px;
 	height: 20px;
 	
@@ -48,11 +55,11 @@ p {
 	font-weight: 600;
 }
 .heading3 {
-	margin: 0 0 30px 0;
+	margin: 30px 0 30px 0;
 }
 .paragraph {
-	margin: 0 0 40px 0;
-	line-height: 30px;
+	margin: 0px 0 20px 0;
+	line-height: 20px;
 }
 .vacancy-details {
 	margin: 0;
@@ -62,4 +69,7 @@ p {
 .vacancy-details__item:before {
 	content: '—';
 	margin-inline-end: 15px;
+}
+.vacancy-details__item {
+
 }
